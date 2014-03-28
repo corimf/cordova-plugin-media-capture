@@ -815,7 +815,7 @@
 
     if (!self.pluginResult) {
         // return error
-        self.pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageToErrorObject:self.errorCode];
+        self.pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageToErrorObject:(int)self.errorCode];
     }
 
     self.avRecorder = nil;
