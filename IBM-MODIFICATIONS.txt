@@ -11,3 +11,10 @@ because Android was not returning the correct file location for the newly record
 The fix involved grabbing the newly created video's file location if it did not exist
 in the intent. The bug seems to be isolated to Nexus devices on Android 4.3. On this stream,
 we needed to cherry-pick 237d55 and 7184ef from cordova-plugin-media-capture.
+
+Cordova iOS 64-bit support
+- Cordova RTC work item number: 55592
+- Worklight RTC work item number: 55901
+- Apache Cordova Jira issue: CB-6212
+- Markmail or Google Group reference: none
+- Fix plugin warnings compiled under arm64 64-bit
